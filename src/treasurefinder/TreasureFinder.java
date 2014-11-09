@@ -6,6 +6,8 @@
 
 package treasurefinder;
 
+import treasurefinder.View.TitleScreen;
+
 /**
  *
  * @author Joshua
@@ -16,7 +18,10 @@ public class TreasureFinder {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        TitleScreen titlescreen = new TitleScreen();
+        titlescreen.display();
+        
     }
     
 }
